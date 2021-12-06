@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.pricing-plan {
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    margin: 15px;
+}
+.pricing-plan-highlighted {
+    box-shadow: 0 0 15px rbga (o, 0, 0, 0.4);
+    transform:scale(1.05)
+}
+.pricing-plan-special-text {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007c64;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2) inset;
+}
+.pricing-plan-header {
+    padding: 25px;
+    background-color: #009578;
+    color: #fff;
+}
+.pricing-plan-title,
+.pricing-plan-summary {
+    margin: 0;
+    text-align: center;
+}
+.pricing-plan-title {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.pricing-plan-summary{
+    font-size: 1em;
+    font-weight: 300;
+}
+.pricing-plan-description {
+    padding: 25px;
+}
+.pricing-plan-list {
+    padding: 0;
+    margin: 0;
+}
+.pricing-plan-feature {
+    list-style: none;
+    margin: 0;
+    padding-left: 25px;
+    position: relative;
+    font-size: 0.9em;
+}
+.pricing-plan-feature:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+.pricing-plan-feature::before {
+    content: "\2714";
+    color: #009578;
+    position: absolute;
+    left: 0;
+}
+.pricing-plan-actions {
+    padding: 25px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+.pricing-plan-button {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #009578;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+.pricing-plan-button:hover {
+    background-color: #009578;
+    color: #fff;
+}
+.pricing-plan-cost {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+}
+.pricing-plan-text {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.pricing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
